@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+.mainContainer {
+    /* border: 2px solid green; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+#scoreMainContainer {
+    width: 90%;
+    /* margin-top: 10px; */
+}
+
+.scoreBoard {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgb(0, 0, 0);
+}
+
+.scoreBoard p {
+    /* border: 2px solid green; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin: 1rem;
+}
+
+input {
+    padding: .5rem .8rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: inset 3px 3px 7px black, inset 4px 4px 10px black;
+    background-color: transparent;
+    color: white;
+}
